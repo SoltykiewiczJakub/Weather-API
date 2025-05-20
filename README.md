@@ -31,9 +31,9 @@ Or run the main class WeatherApiAplication from your IDE.
 ### 3. API Endpoint
 Request
 ```bash
-GET /weather?city={cityName}
+GET /api/weather?city={cityName}
 ```
 Example
 ```bash
-Get http://localhost:8080/weather?city=Warsaw
+Get http://localhost:8080/api/weather?city=Warsaw
 ```
