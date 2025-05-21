@@ -28,6 +28,8 @@ public class WeatherService {
         weather.setDescription(json.getJSONArray("weather").getJSONObject(0).getString("description"));
         weather.setHumidity(json.getJSONObject("main").getInt("humidity"));
         weather.setWindSpeed(json.getJSONObject("wind").getDouble("speed"));
+        weather.setCity(json.getString("name"));
+
 
         return weather;
     }
