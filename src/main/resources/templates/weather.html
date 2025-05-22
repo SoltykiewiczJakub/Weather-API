@@ -18,6 +18,7 @@
 <div th:if="${weather}">
     <h2>Weather in <span th:text="${city}"></span>:</h2>
     <p>🌡️ Temperature: <span th:text="${weather.temperature}"></span>°C</p>
+    <p>🧭 Pressure: <span th:text="${weather.pressure}"></span> hPa</p>
     <p>🌥️ Description: <span th:text="${weather.description}"></span></p>
     <p>💧 Humidity: <span th:text="${weather.humidity}"></span>%</p>
     <p>💨 Wind Speed: <span th:text="${weather.windSpeed}"></span> m/s</p>

@@ -4,6 +4,7 @@ package org.example.weatherapi.model;
 public class WeatherResponse {
 
     private double temperature;
+    private int pressure;
     private String description;
     private int humidity;
     private double windSpeed;
@@ -16,6 +17,10 @@ public class WeatherResponse {
     public void setTemperature(double temperature) {
         this.temperature = temperature;
     }
+
+    public int getPressure() {return pressure;}
+
+    public void setPressure(int pressure) {this.pressure = pressure;}
 
     // Getter i Setter dla description
     public String getDescription() {

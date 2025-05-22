@@ -25,6 +25,7 @@ public class WeatherService {
 
         WeatherResponse weather = new WeatherResponse();
         weather.setTemperature(json.getJSONObject("main").getDouble("temp"));
+        weather.setPressure(json.getJSONObject("main").getInt("pressure"));
         weather.setDescription(json.getJSONArray("weather").getJSONObject(0).getString("description"));
         weather.setHumidity(json.getJSONObject("main").getInt("humidity"));
         weather.setWindSpeed(json.getJSONObject("wind").getDouble("speed"));
