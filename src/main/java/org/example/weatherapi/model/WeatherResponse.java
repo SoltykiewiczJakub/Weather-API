@@ -22,7 +22,6 @@ public class WeatherResponse {
 
     public void setPressure(int pressure) {this.pressure = pressure;}
 
-    // Getter i Setter dla description
     public String getDescription() {
         return description;
     }
@@ -31,7 +30,6 @@ public class WeatherResponse {
         this.description = description;
     }
 
-    // Getter i Setter dla humidity
     public int getHumidity() {
         return humidity;
     }
@@ -40,7 +38,6 @@ public class WeatherResponse {
         this.humidity = humidity;
     }
 
-    // Getter i Setter dla windSpeed
     public double getWindSpeed() {
         return windSpeed;
     }
@@ -49,7 +46,6 @@ public class WeatherResponse {
         this.windSpeed = windSpeed;
     }
 
-    // Getter i Setter dla city
     public String getCity() {
         return city;
     }
